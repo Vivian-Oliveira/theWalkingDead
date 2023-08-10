@@ -220,3 +220,31 @@ header li:last-child{margin-right: 0}*/
     border:     none;
     border-radius: 4px;
 }
+
+footer{
+    background-image: url(./img/banner_historia.jpg);
+    background-size: cover;
+    background-color: #783a32;
+    padding: 50px;
+    background-position: 0px -119px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+
+footer ul{
+    display: flex;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+footer span{
+    font-size: 1.2rem;
+    color: #783a32;
+}
+
+footer p{
+    max-width: 800px;
+    width: 100%;
+}
